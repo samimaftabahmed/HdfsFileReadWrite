@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="HdfsFileReadWrite:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/HdfsFileReadWrite_jar</output-path>
+    <root id="archive" name="HdfsFileReadWrite.jar">
+      <element id="module-output" name="HdfsFileReadWrite" />
+    </root>
+  </artifact>
+</component>

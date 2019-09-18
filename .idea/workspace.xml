@@ -6,16 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="319c694e-d777-4d9f-a331-0c03edd4d054" name="Default Changelist" comment="Working Hdfs444">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="319c694e-d777-4d9f-a331-0c03edd4d054" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/HdfsFileReadWrite_jar/HdfsFileReadWrite.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HdfsFileReadWrite_jar/HdfsFileReadWrite.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/samhad/HdfsReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/samhad/HdfsToLocalPathCopy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/samhad/HdfsWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/samhad/LocalPathToHdfsCopy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/samhad/HdfsReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/samhad/HdfsWriter.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +70,7 @@
       <updated>1568747147973</updated>
       <workItem from="1568747150411" duration="1766000" />
       <workItem from="1568779747075" duration="2080000" />
-      <workItem from="1568809424126" duration="4130000" />
+      <workItem from="1568809424126" duration="4394000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1568748201897</created>
@@ -94,7 +86,21 @@
       <option name="project" value="LOCAL" />
       <updated>1568748825157</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Working">
+      <created>1568814015143</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1568814015143</updated>
+    </task>
+    <task id="LOCAL-00004" summary="corrected error msg">
+      <created>1568814183318</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1568814183318</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +124,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="First Commit" />
     <MESSAGE value="Jar Artifact Creation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Jar Artifact Creation" />
+    <MESSAGE value="Working" />
+    <MESSAGE value="corrected error msg" />
+    <option name="LAST_COMMIT_MESSAGE" value="corrected error msg" />
   </component>
 </project>

@@ -14,15 +14,15 @@ import java.io.FileOutputStream;
 import java.io.InputStream;
 import java.io.OutputStream;
 
-public class HdfsReader extends Configured implements Tool {
+public class HdfsToLocalPathCopy extends Configured implements Tool {
 
-    private static final String FS_PARAM_VALUE = "fs.default.name";
+    private static final String FS_PARAM_VALUE = "fs.defaultFS";
 
 
     public static void main(String[] args) {
 
         try {
-            int res = ToolRunner.run(new Configuration(), new HdfsReader(), args);
+            int res = ToolRunner.run(new Configuration(), new HdfsToLocalPathCopy(), args);
             System.exit(res);
 
         } catch (Exception e) {
@@ -38,17 +38,17 @@ public class HdfsReader extends Configured implements Tool {
         String[] otherArgs = new GenericOptionsParser(configuration, args).getRemainingArgs();
 
         if (otherArgs.length != 2) {
-            System.err.println("Usage: hadoop jar HdfsFileReadWrite.jar </input-path> </output-path>");
+            System.err.println("Usage: hadoop jar HdfsFileReadWrite.jar com.samhad.HdfsWriter/HdfsToLocalPathCopy/LocalPathToHdfsCopy </input-path/fileA.xyz> </local-output-path/fileZ.xyz>");
             return 2;
         }
 
         Path inputPath = new Path(args[0]);
-        String localPath = args[1];
+        String localOutputPath = args[1];
         System.out.println("Configured FileSystem = " + configuration.get(FS_PARAM_VALUE));
 
         FileSystem fs = FileSystem.get(configuration);
         InputStream inputStream = fs.open(inputPath);
-        OutputStream outputStream = new BufferedOutputStream(new FileOutputStream(localPath));
+        OutputStream outputStream = new BufferedOutputStream(new FileOutputStream(localOutputPath));
         IOUtils.copyBytes(inputStream, outputStream, configuration);
 
         return 0;

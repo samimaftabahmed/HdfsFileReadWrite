@@ -14,14 +14,14 @@ import java.io.FileInputStream;
 import java.io.InputStream;
 import java.io.OutputStream;
 
-public class HdfsWriter extends Configured implements Tool {
+public class LocalPathToHdfsCopy extends Configured implements Tool {
 
-    private static final String FS_PARAM_VALUE = "fs.default.name";
+    private static final String FS_PARAM_VALUE = "fs.defaultFS";
 
     public static void main(String[] args) {
 
         try {
-            int res = ToolRunner.run(new Configuration(), new HdfsWriter(), args);
+            int res = ToolRunner.run(new Configuration(), new LocalPathToHdfsCopy(), args);
             System.exit(res);
 
         } catch (Exception e) {
@@ -37,7 +37,7 @@ public class HdfsWriter extends Configured implements Tool {
         String[] otherArgs = new GenericOptionsParser(configuration, args).getRemainingArgs();
 
         if (otherArgs.length != 2) {
-            System.err.println("Usage: hadoop jar HdfsFileReadWrite.jar </input-path> </output-path>");
+            System.err.println("Usage: hadoop jar HdfsFileReadWrite.jar com.samhad.HdfsToLocalPathCopy/LocalPathToHdfsCopy </local-input-path/fileA.xyz> </output-path/fileZ.xyz>");
             return 2;
         }
 

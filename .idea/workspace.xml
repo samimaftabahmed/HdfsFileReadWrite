@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="HdfsFileReadWrite:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="319c694e-d777-4d9f-a331-0c03edd4d054" name="Default Changelist" comment="">
+    <list default="true" id="319c694e-d777-4d9f-a331-0c03edd4d054" name="Default Changelist" comment="Working Hdfs444">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/HdfsFileReadWrite_jar/HdfsFileReadWrite.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HdfsFileReadWrite_jar/HdfsFileReadWrite.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/samhad/HdfsReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/samhad/HdfsToLocalPathCopy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/samhad/HdfsWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/samhad/LocalPathToHdfsCopy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/samhad/HdfsReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/samhad/HdfsWriter.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,9 +43,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
-    <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
     <property name="typescript.add.unambiguous.imports.on.the.fly" value="true" />
   </component>
@@ -63,7 +76,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568747147973</updated>
-      <workItem from="1568747150411" duration="1296000" />
+      <workItem from="1568747150411" duration="1766000" />
+      <workItem from="1568779747075" duration="2080000" />
+      <workItem from="1568809424126" duration="4130000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1568748201897</created>
@@ -72,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568748201897</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Jar Artifact Creation">
+      <created>1568748825157</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1568748825157</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,7 +105,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -93,6 +117,7 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="First Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
+    <MESSAGE value="Jar Artifact Creation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Jar Artifact Creation" />
   </component>
 </project>

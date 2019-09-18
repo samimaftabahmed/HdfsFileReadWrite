@@ -1,3 +1,3 @@
 # HDFS File Read and Write
 
-Program to read and write(copy) a file on HDFS 
+Program to Copy a file from HDFS to local FS and vice versa.

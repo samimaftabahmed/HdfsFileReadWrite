@@ -38,7 +38,7 @@ public class HdfsToLocalPathCopy extends Configured implements Tool {
         String[] otherArgs = new GenericOptionsParser(configuration, args).getRemainingArgs();
 
         if (otherArgs.length != 2) {
-            System.err.println("Usage: hadoop jar HdfsFileReadWrite.jar com.samhad.HdfsWriter/HdfsToLocalPathCopy/LocalPathToHdfsCopy </input-path/fileA.xyz> </local-output-path/fileZ.xyz>");
+            System.err.println("Usage: hadoop jar HdfsFileReadWrite.jar com.samhad.HdfsToLocalPathCopy/LocalPathToHdfsCopy </input-path/fileA.xyz> </local-output-path/fileZ.xyz>");
             return 2;
         }
 

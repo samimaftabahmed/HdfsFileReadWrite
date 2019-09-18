@@ -7,6 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="319c694e-d777-4d9f-a331-0c03edd4d054" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,7 +71,9 @@
       <updated>1568747147973</updated>
       <workItem from="1568747150411" duration="1766000" />
       <workItem from="1568779747075" duration="2080000" />
-      <workItem from="1568809424126" duration="4394000" />
+      <workItem from="1568809424126" duration="5015000" />
+      <workItem from="1568829989055" duration="1249000" />
+      <workItem from="1568835126024" duration="325000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1568748201897</created>
@@ -100,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568814183318</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="description update">
+      <created>1568814285304</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1568814285304</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +136,7 @@
     <MESSAGE value="Jar Artifact Creation" />
     <MESSAGE value="Working" />
     <MESSAGE value="corrected error msg" />
-    <option name="LAST_COMMIT_MESSAGE" value="corrected error msg" />
+    <MESSAGE value="description update" />
+    <option name="LAST_COMMIT_MESSAGE" value="description update" />
   </component>
 </project>
